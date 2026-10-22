@@ -16,6 +16,38 @@ const PROJECTS = [
     description: "An evidence-first workbench for reproducing failures and debugging AI-assisted code changes.",
     stack: ["Rust", "Debugging", "Developer experience"],
     url: "https://github.com/t1ktakdev/ReproDeck"
+  },
+  {
+    name: "ReproShot",
+    category: "developer-tools",
+    label: "Developer tools",
+    description: "Turn a failing command into a reproducible bug report with the evidence required to investigate it.",
+    stack: ["TypeScript", "CLI", "Debugging"],
+    url: "https://github.com/t1ktakdev/ReproShot"
+  },
+  {
+    name: "RouteWitness",
+    category: "networking",
+    label: "Networking",
+    description: "A local-first recorder that captures context before, during and after network connectivity failures.",
+    stack: ["Python", "Networking", "Local-first"],
+    url: "https://github.com/t1ktakdev/RouteWitness"
+  },
+  {
+    name: "niri-pip",
+    category: "desktop",
+    label: "Desktop & Wayland",
+    description: "Picture-in-Picture and sticky-window control for the Niri Wayland compositor.",
+    stack: ["Rust", "Linux", "Wayland"],
+    url: "https://github.com/t1ktakdev/niri-pip"
+  },
+  {
+    name: "niri-zones",
+    category: "desktop",
+    label: "Desktop & Wayland",
+    description: "A Wayland-native overlay for assigning windows to preset zones in Niri.",
+    stack: ["Rust", "Linux", "Window management"],
+    url: "https://github.com/t1ktakdev/niri-zones"
   }
 ];
 
